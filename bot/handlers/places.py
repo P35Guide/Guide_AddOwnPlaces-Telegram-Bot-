@@ -33,7 +33,8 @@ async def start_handler(message: Message, state: FSMContext):
 
     kb = ReplyKeyboardMarkup(
         keyboard=[
-            [KeyboardButton(text="📌 Додати своє місце")]
+            [KeyboardButton(text="📌 Додати своє місце")],
+            [KeyboardButton(text="👀 Подивитись додані місця")]
         ],
         resize_keyboard=True
     )
@@ -239,7 +240,10 @@ async def confirm_add_place(message: Message, state: FSMContext, bot: Bot):
     logger.info(f"[DEBUG] confirm_add_place handler triggered. message.text={message.text}")
     await message.answer("Дякую!", reply_markup=ReplyKeyboardRemove())
     kb = ReplyKeyboardMarkup(
-        keyboard=[[KeyboardButton(text="📌 Додати своє місце")]],
+        keyboard=[
+            [KeyboardButton(text="📌 Додати своє місце")],
+            [KeyboardButton(text="👀 Подивитись додані місця")]
+        ],
         resize_keyboard=True
     )
     if message.text == "Так":
