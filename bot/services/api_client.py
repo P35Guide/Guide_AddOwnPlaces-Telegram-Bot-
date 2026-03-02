@@ -25,3 +25,24 @@ async def add_custom_place(place: Place, session: aiohttp.ClientSession):
     except Exception as e:
         logger.error(f"API Request Error: {e}")
 
+async def get_all_custom_places(session:aiohttp.ClientSession):
+    try:
+        async with session.get(f"https://localhost:7124/api/custom/getAllPlaces",ssl=False) as resposns:
+            if resposns.status == 200:
+                logger.info("custom places gotten")
+                return await resposns.json()
+            else:
+                return None
+    except Exception as e:
+        logger.error(f"API Request Error: {e}")
+
+async def get_custom_place_by_id(id:int,session:aiohttp.ClientSession):
+    try:
+        async with session.get(f"https://localhost:7124/api/custom/getPlaceById?Id={id}",ssl=False) as resposns:
+            if resposns.status == 200:
+                logger.info("custom places gotten")
+                return await resposns.json()
+            else:
+                return None
+    except Exception as e:
+        logger.error(f"API Request Error: {e}")
