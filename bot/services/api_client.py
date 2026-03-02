@@ -2,19 +2,6 @@ import aiohttp
 from bot.utils.logger import logger
 from bot.model.place import Place
 
-async def get_all_places(session: aiohttp.ClientSession):
-    try:
-        async with session.get("https://localhost:7124/api/custom/getAllPlaces", ssl=False) as response:
-            if response.status == 200:
-                data = await response.json()
-                logger.info(f"Fetched all places: {len(data)} items")
-                return data
-            else:
-                logger.error(f"Failed to fetch all places: {response.status}")
-                return None
-    except Exception as e:
-        logger.error(f"API getAllPlaces Error: {e}")
-        return None
 
 async def get_place_by_id(place_id: int, session: aiohttp.ClientSession):
     try:
