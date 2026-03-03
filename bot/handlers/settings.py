@@ -1,5 +1,8 @@
+from bot.utils.i18n import i18n
+
 @router.message(BotState.waiting_for_category)
 async def add_custom_category_handler(message: Message, state: FSMContext):
+    user_lang = message.from_user.language_code or "uk"
     user_text = (message.text or "").strip()
 
     if len(user_text) < 3:
