@@ -306,7 +306,20 @@ async def coords_fallback(message: Message, state: FSMContext):
     data = await state.get_data()
     user_lang = data.get("lang", user_lang)
     
-    await message.answer(i18n.get("coords_required", user_lang))
+    back_btn_variants = i18n.get_all_buttons_variants("back_btn")
+    
+    if message.text in back_btn_variants:
+        # User wants to go back to coords choice
+        data = await state.get_data()
+        user_lang = data.get("lang", user_lang)
+        kb = coords_choice_keyboard(user_lang)
+        await message.answer(
+            i18n.get("choose_coords_method", user_lang),
+            reply_markup=kb
+        )
+        await state.set_state(AddPlace.wait_for_coords_choice)
+    else:
+        await message.answer(i18n.get("coords_required", user_lang))
 
 @router.message(AddPlace.wait_for_foto, F.photo)
 async def add_photo(message: Message, state: FSMContext):

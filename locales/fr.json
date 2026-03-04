@@ -11,6 +11,7 @@
   "click_to_send_coords": "Cliquez sur le bouton ci-dessous pour envoyer vos coordonnées:",
   "geopoint_instructions": "Pour envoyer une épingle de localisation:\n\n1. Cliquez sur le trombone 📎 dans le champ de message.\n2. Sélectionnez 'Localisation'.\n3. Cliquez sur 'Envoyer votre localisation'.\n4. Déplacez l'épingle vers le lieu souhaité et envoyez.",
   "send_my_location": "Envoyer ma localisation",
+  "back_btn": "⬅️ Retour",
   "coords_received": "Coordonnées reçues! Fournissez maintenant 5 photos du lieu, une par une:",
   "coords_required": "Veuillez envoyer l'épingle de localisation ou utiliser le bouton pour envoyer vos coordonnées.\n\nSi vous ne savez pas comment:\n\n1. Cliquez sur le trombone 📎 dans le champ de message.\n2. Sélectionnez 'Localisation'.\n3. Cliquez sur 'Envoyer votre localisation'.\n4. Déplacez l'épingle vers le lieu souhaité et envoyez.",
   "address_invalid": "L'adresse doit contenir au moins 5 caractères et ne contenir que des lettres, des chiffres, des espaces, des virgules, des points et des tirets. Réessayez.",

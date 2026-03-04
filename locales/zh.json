@@ -11,6 +11,7 @@
   "click_to_send_coords": "点击下面的按钮发送您的坐标:",
   "geopoint_instructions": "要发送位置:\n\n1. 点击消息字段中的回形针 📎。\n2. 选择\"位置\"。\n3. 点击\"发送您的位置\"。\n4. 将位置移动到所需位置并发送。",
   "send_my_location": "发送我的位置",
+  "back_btn": "⬅️ 返回",
   "coords_received": "已收到坐标!现在提供地点的5张照片,一次一张:",
   "coords_required": "请发送位置或使用按钮发送您的坐标。\n\n如果您不知道如何操作:\n\n1. 点击消息字段中的回形针 📎。\n2. 选择\"位置\"。\n3. 点击\"发送您的位置\"。\n4. 将位置移动到所需位置并发送。",
   "address_invalid": "地址必须至少为5个字符,并且只能包含字母、数字、空格、逗号、句号和连字符。请重试。",
@@ -40,5 +41,5 @@
   "language_selection_title": "🌍 选择语言:",
   "language_selected": "语言已更改为{language}",
   "language_confirm": "您的Telegram语言是否适合您({lang_display})?",
-  "language_change": "选择其他语言或按"继续"继续"
+  "language_change": "选择其他语言或按\"继续\"继续"
 }

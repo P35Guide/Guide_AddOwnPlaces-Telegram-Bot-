@@ -11,6 +11,7 @@
   "click_to_send_coords": "Klicken Sie auf die Schaltfläche unten, um Ihre Koordinaten zu senden:",
   "geopoint_instructions": "Um eine Standortmarke zu senden:\n\n1. Klicken Sie auf die Büroklammer 📎 im Nachrichtenfeld.\n2. Wählen Sie 'Standort'.\n3. Klicken Sie auf 'Standort senden'.\n4. Verschieben Sie die Marke zum gewünschten Ort und senden Sie.",
   "send_my_location": "Meinen Standort senden",
+  "back_btn": "⬅️ Zurück",
   "coords_received": "Koordinaten erhalten! Geben Sie jetzt 5 Fotos des Ortes nacheinander ein:",
   "coords_required": "Bitte senden Sie die Standortmarke oder verwenden Sie die Schaltfläche, um Ihre Koordinaten zu senden.\n\nWenn Sie nicht wissen wie:\n\n1. Klicken Sie auf die Büroklammer 📎 im Nachrichtenfeld.\n2. Wählen Sie 'Standort'.\n3. Klicken Sie auf 'Standort senden'.\n4. Verschieben Sie die Marke zum gewünschten Ort und senden Sie.",
   "address_invalid": "Die Adresse muss mindestens 5 Zeichen lang sein und darf nur Buchstaben, Zahlen, Leerzeichen, Kommas, Punkte und Bindestriche enthalten. Versuchen Sie es erneut.",

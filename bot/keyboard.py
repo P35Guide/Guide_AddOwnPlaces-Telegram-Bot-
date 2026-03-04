@@ -20,7 +20,8 @@ def coords_choice_keyboard(lang: str = "uk") -> ReplyKeyboardMarkup:
 
 def location_keyboard(lang: str = "uk") -> ReplyKeyboardMarkup:
     keyboard = [
-        [KeyboardButton(text=i18n.get("send_my_location", lang), request_location=True)]
+        [KeyboardButton(text=i18n.get("send_my_location", lang), request_location=True)],
+        [KeyboardButton(text=i18n.get("back_btn", lang))]
     ]
     return ReplyKeyboardMarkup(keyboard=keyboard, resize_keyboard=True)
 

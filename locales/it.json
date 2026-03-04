@@ -11,6 +11,7 @@
   "click_to_send_coords": "Fai clic sul pulsante sottostante per inviare le tue coordinate:",
   "geopoint_instructions": "Per inviare una posizione:\n\n1. Fai clic sulla graffetta 📎 nel campo del messaggio.\n2. Seleziona 'Posizione'.\n3. Fai clic su 'Invia la tua posizione'.\n4. Sposta la posizione nel luogo desiderato e invia.",
   "send_my_location": "Invia la mia posizione",
+  "back_btn": "⬅️ Indietro",
   "coords_received": "Coordinate ricevute! Ora fornisci 5 foto del luogo, una per una:",
   "coords_required": "Per favore invia la posizione o usa il pulsante per inviare le tue coordinate.\n\nSe non sai come:\n\n1. Fai clic sulla graffetta 📎 nel campo del messaggio.\n2. Seleziona 'Posizione'.\n3. Fai clic su 'Invia la tua posizione'.\n4. Sposta la posizione nel luogo desiderato e invia.",
   "address_invalid": "L'indirizzo deve contenere almeno 5 caratteri e contenere solo lettere, numeri, spazi, virgole, punti e trattini. Riprova.",

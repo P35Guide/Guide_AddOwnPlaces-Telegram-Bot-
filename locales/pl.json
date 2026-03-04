@@ -11,6 +11,7 @@
   "click_to_send_coords": "Kliknij przycisk poniżej, aby wysłać swoje współrzędne:",
   "geopoint_instructions": "Aby wysłać lokalizację:\n\n1. Kliknij spinacz 📎 w polu wiadomości.\n2. Wybierz 'Lokalizacja'.\n3. Kliknij 'Wyślij swoją lokalizację'.\n4. Przesuń lokalizację do żądanego miejsca i wyślij.",
   "send_my_location": "Wyślij moją lokalizację",
+  "back_btn": "⬅️ Wstecz",
   "coords_received": "Współrzędne otrzymane! Teraz podaj 5 zdjęć miejsca, jedno po drugim:",
   "coords_required": "Proszę wyślij lokalizację lub użyj przycisku, aby wysłać swoje współrzędne.\n\nJeśli nie wiesz jak:\n\n1. Kliknij spinacz 📎 w polu wiadomości.\n2. Wybierz 'Lokalizacja'.\n3. Kliknij 'Wyślij swoją lokalizację'.\n4. Przesuń lokalizację do żądanego miejsca i wyślij.",
   "address_invalid": "Adres musi mieć co najmniej 5 znaków i zawierać tylko litery, cyfry, spacje, przecinki, kropki i łączniki. Spróbuj ponownie.",
