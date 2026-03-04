@@ -8,3 +8,6 @@ class AddPlace(StatesGroup):
     wait_for_coords = State()
     wait_for_foto = State()
     wait_for_confirm = State()
+class LanguageSelection(StatesGroup):
+    waiting_for_language = State()
+    waiting_for_confirmation = State()
